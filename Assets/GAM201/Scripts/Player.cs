@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 
-public class Player: MonoBehaviour
+public class Player : MonoBehaviour
 {
     public float moveSpeed = 5f;         // Tốc độ di chuyển
-    public float rotationSpeed = 720f;  // Tốc độ xoay
+    public float rotationSpeed = 0.1f;  // Tốc độ xoay
     public float jumpForce = 5f;        // Lực nhảy
     public Transform cameraTransform;   // Transform của camera
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
     private float gravity = -9.81f;     // Trọng lực
+    private float velocityY = 0f;       // Tốc độ rơi
 
     void Start()
     {
@@ -37,10 +38,10 @@ public class Player: MonoBehaviour
         {
             // Xác định góc quay theo hướng camera
             float targetAngle = Mathf.Atan2(inputDirection.x, inputDirection.z) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref rotationSpeed, 0.1f);
+            float smoothedAngle = Mathf.LerpAngle(transform.eulerAngles.y, targetAngle, rotationSpeed);
 
             // Xoay nhân vật
-            transform.rotation = Quaternion.Euler(0, angle, 0);
+            transform.rotation = Quaternion.Euler(0, smoothedAngle, 0);
 
             // Hướng di chuyển theo góc đã xoay
             Vector3 moveDir = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
@@ -55,15 +56,14 @@ public class Player: MonoBehaviour
         // Áp dụng trọng lực
         if (characterController.isGrounded)
         {
+            velocityY = 0;
             if (Input.GetButtonDown("Jump"))
             {
-                moveDirection.y = jumpForce;
+                velocityY = jumpForce;
             }
         }
-        else
-        {
-            moveDirection.y += gravity * Time.deltaTime;
-        }
+        velocityY += gravity * Time.deltaTime;
+        moveDirection.y = velocityY;
 
         // Di chuyển nhân vật
         characterController.Move(moveDirection * Time.deltaTime);
