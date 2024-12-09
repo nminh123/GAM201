@@ -81,8 +81,819 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: HumanCharacter:nhanvat:HumanBody:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumanCharacter:nhanvat:HumanBody:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Running(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:humanBody
+      parentName: Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.041844238, y: 0.041844238, z: 0.041844238}
+    - name: HumanCharacter:nhanvat:HumanBody:transform6
+      parentName: HumanCharacter:nhanvat:HumanBody:humanBody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:pSphere1
+      parentName: Running(Clone)
+      position: {x: -0.0014034332, y: 0.07132469, z: 0.0037213142}
+      rotation: {x: 0.7027825, y: -0, z: -0, w: 0.7114048}
+      scale: {x: 0.080353655, y: 0.049631067, z: 0.049631067}
+    - name: HumanCharacter:nhanvat:HumanBody:transform5
+      parentName: HumanCharacter:nhanvat:pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:pSphere2
+      parentName: Running(Clone)
+      position: {x: 0.0014317213, y: 0.07132315, z: 0.0036847799}
+      rotation: {x: 0.7027825, y: -0, z: -0, w: 0.7114048}
+      scale: {x: 0.080353655, y: 0.049631067, z: 0.049631067}
+    - name: HumanCharacter:nhanvat:HumanBody:transform4
+      parentName: HumanCharacter:nhanvat:pSphere2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:humanBody
+      parentName: Running(Clone)
+      position: {x: -0, y: -0.0061558937, z: 0.00027831277}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.045668498, y: 0.045668498, z: 0.045668498}
+    - name: HumanCharacter:nhanvat:HumanBody:transform3
+      parentName: HumanCharacter:nhanvat:humanBody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:humanBody1
+      parentName: Running(Clone)
+      position: {x: -0, y: -0.0012421717, z: -0.00008301088}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.04217788, y: 0.04217788, z: 0.044410296}
+    - name: HumanCharacter:nhanvat:HumanBody:transform2
+      parentName: HumanCharacter:nhanvat:humanBody1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:humanBody2
+      parentName: Running(Clone)
+      position: {x: -0, y: 0, z: 0.00032662487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.041844238, y: 0.041844238, z: 0.041844238}
+    - name: HumanCharacter:nhanvat:HumanBody:transform1
+      parentName: HumanCharacter:nhanvat:humanBody2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:humanBody1
+      parentName: Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:Hips
+      parentName: Running(Clone)
+      position: {x: -0.000084107516, y: 0.044020176, z: 0.00065183936}
+      rotation: {x: -0.0000000029103826, y: 1.0587908e-17, z: -0.0000000036379784, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:Spine
+      parentName: HumanCharacter:nhanvat:HumanBody:Hips
+      position: {x: -0, y: 0.0040500783, z: -0.00036037192}
+      rotation: {x: -0.044358153, y: 0.0000000027784193, z: 0.0000000030366172, w: 0.9990157}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:Spine1
+      parentName: HumanCharacter:nhanvat:HumanBody:Spine
+      position: {x: -0, y: 0.0047437525, z: 2.1833238e-11}
+      rotation: {x: 0.000000011175871, y: 0.000000008632304, z: 0.0000000014985653, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:Spine2
+      parentName: HumanCharacter:nhanvat:HumanBody:Spine1
+      position: {x: -0, y: 0.0054214345, z: -1.9608195e-11}
+      rotation: {x: 0.000000040978193, y: -0.000000023191436, z: -0.0000000020635529, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:Neck
+      parentName: HumanCharacter:nhanvat:HumanBody:Spine2
+      position: {x: -0, y: 0.006099112, z: 1.4267958e-11}
+      rotation: {x: 0.044358104, y: 0.000000006073233, z: -0.0000000055568394, w: 0.9990157}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:Head
+      parentName: HumanCharacter:nhanvat:HumanBody:Neck
+      position: {x: -0, y: 0.0038509083, z: 0.0006727601}
+      rotation: {x: 0.00000001164153, y: -0, z: 0.000000005820767, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:HeadTop_End
+      parentName: HumanCharacter:nhanvat:HumanBody:Head
+      position: {x: -0, y: 0.009229374, z: 0.0016123874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftShoulder
+      parentName: HumanCharacter:nhanvat:HumanBody:Spine2
+      position: {x: -0.002633324, y: 0.004931882, z: -0.00009648608}
+      rotation: {x: 0.56615454, y: -0.4163737, z: 0.58325624, w: 0.40732566}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftArm
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftShoulder
+      position: {x: 1.4417032e-11, y: 0.0057390663, z: -1.6370026e-10}
+      rotation: {x: -0.14489444, y: -0.06338084, z: -0.006801217, w: 0.9873916}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftForeArm
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftArm
+      position: {x: -1.26209815e-11, y: 0.010998345, z: -1.4036315e-10}
+      rotation: {x: -0.010823428, y: 0.00095176685, z: -0.03756621, w: 0.9992351}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHand
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftForeArm
+      position: {x: -3.5260395e-11, y: 0.011118417, z: -1.1372856e-10}
+      rotation: {x: 0.11349106, y: 0.14737113, z: 0.028469086, w: 0.982136}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandThumb1
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHand
+      position: {x: 0.00092119497, y: 0.0014530367, z: 0.00077560236}
+      rotation: {x: 0.15066966, y: 0.0005003214, z: -0.27536997, w: 0.94945765}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandThumb2
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandThumb1
+      position: {x: 0.000240354, y: 0.0014904945, z: 2.1303443e-11}
+      rotation: {x: 0.009184999, y: 0.0009158373, z: -0.07052226, w: 0.9974675}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandThumb3
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandThumb2
+      position: {x: -0.000093267765, y: 0.0016870132, z: 1.5568593e-11}
+      rotation: {x: -0.037720893, y: 0.004934085, z: -0.016581804, w: 0.9991386}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandThumb4
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandThumb3
+      position: {x: -0.00014708622, y: 0.0013448735, z: -5.3019655e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandPinky1
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHand
+      position: {x: -0.0016020066, y: 0.0043601957, z: -0.000100154444}
+      rotation: {x: 0.040800344, y: 0.0126279695, z: -0.001604797, w: 0.9990862}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000008}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandPinky2
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandPinky1
+      position: {x: -0.0000018868185, y: 0.0014445533, z: -3.1372416e-12}
+      rotation: {x: 0.037254144, y: -0.00004042964, z: 0.00060607755, w: 0.9993056}
+      scale: {x: 1.0000001, y: 1.000001, z: 0.99999994}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandPinky3
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandPinky2
+      position: {x: 0.0000005014167, y: 0.001225979, z: -1.3973542e-11}
+      rotation: {x: 0.005971162, y: 0.000000056912196, z: 0.000000011992969, w: 0.9999822}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandPinky4
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandPinky3
+      position: {x: 0.0000013853987, y: 0.0010342075, z: -4.8244473e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle1
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHand
+      position: {x: 0.00048025593, y: 0.005018021, z: -0.00021502258}
+      rotation: {x: 0.052051492, y: -0.00047549605, z: -0.015273221, w: 0.9985276}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000011}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle2
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle1
+      position: {x: -0.00001895181, y: 0.0016209198, z: -4.494085e-12}
+      rotation: {x: 0.036313813, y: -0.0004880229, z: 0.005398775, w: 0.99932575}
+      scale: {x: 1.0000001, y: 1.0000007, z: 0.9999992}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle3
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle2
+      position: {x: 0.00000378851, y: 0.0013924781, z: 1.7942908e-11}
+      rotation: {x: 0.03862838, y: 0.00045978458, z: 0.0029797747, w: 0.9992491}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle4
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandMiddle3
+      position: {x: 0.000015163279, y: 0.001213441, z: 6.701584e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandRing1
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHand
+      position: {x: -0.00050461956, y: 0.0048938724, z: -0.00006708145}
+      rotation: {x: 0.039507605, y: 0.0014180392, z: 0.0032381732, w: 0.99921304}
+      scale: {x: 1.0000002, y: 1, z: 1.0000008}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandRing2
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandRing1
+      position: {x: -0.000012434545, y: 0.0014773916, z: 9.202572e-12}
+      rotation: {x: 0.037553858, y: -0.000357055, z: 0.0028505216, w: 0.9992905}
+      scale: {x: 1, y: 1.0000002, z: 0.9999992}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandRing3
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandRing2
+      position: {x: -0.00000020947951, y: 0.0014661419, z: 2.5849458e-11}
+      rotation: {x: 0.035166755, y: 0.00065405, z: 0.0039841533, w: 0.9993733}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandRing4
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandRing3
+      position: {x: 0.000012643973, y: 0.0012734518, z: -2.010649e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandIndex1
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHand
+      position: {x: 0.0016263704, y: 0.004920592, z: 0.000007435644}
+      rotation: {x: 0.05921676, y: -0.0039645275, z: -0.05451799, w: 0.99674743}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.000001}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandIndex2
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandIndex1
+      position: {x: -0.000013413821, y: 0.0012794344, z: -6.197882e-12}
+      rotation: {x: 0.037804753, y: -0.000120109835, z: 0.0059400587, w: 0.9992675}
+      scale: {x: 1.0000001, y: 1.0000007, z: 0.9999996}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandIndex3
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandIndex2
+      position: {x: 0.000009148571, y: 0.0012494513, z: 4.190388e-12}
+      rotation: {x: -0.019782221, y: 0.00000014197813, z: -0.00000005907162, w: 0.9998044}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftHandIndex4
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftHandIndex3
+      position: {x: 0.0000042652423, y: 0.0010013479, z: 3.1244673e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightShoulder
+      parentName: HumanCharacter:nhanvat:HumanBody:Spine2
+      position: {x: 0.002633324, y: 0.0049331835, z: -0.000111116344}
+      rotation: {x: -0.56381255, y: -0.41857824, z: 0.58521014, w: -0.40550816}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:RightArm
+      parentName: HumanCharacter:nhanvat:HumanBody:RightShoulder
+      position: {x: -1.7106367e-11, y: 0.0057390663, z: -1.6343882e-10}
+      rotation: {x: 0.14505091, y: -0.06657846, z: -0.0014299151, w: -0.9871806}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000001}
+    - name: HumanCharacter:nhanvat:HumanBody:RightForeArm
+      parentName: HumanCharacter:nhanvat:HumanBody:RightArm
+      position: {x: 2.0196338e-12, y: 0.010999225, z: -6.499632e-11}
+      rotation: {x: -0.011265486, y: -0.0010383202, z: 0.037101943, w: 0.9992475}
+      scale: {x: 1.0000006, y: 0.9999997, z: 1.0000004}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHand
+      parentName: HumanCharacter:nhanvat:HumanBody:RightForeArm
+      position: {x: -4.5265102e-12, y: 0.011135222, z: 2.826867e-10}
+      rotation: {x: -0.10765753, y: 0.1442928, z: 0.035432573, w: -0.9830229}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.9999997}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandThumb1
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHand
+      position: {x: -0.00094214117, y: 0.0014461927, z: 0.0008266535}
+      rotation: {x: 0.15447427, y: -0.0037709158, z: 0.27690157, w: 0.9483928}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000006}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandThumb2
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandThumb1
+      position: {x: -0.00025905215, y: 0.0015089276, z: 1.2976174e-11}
+      rotation: {x: -0.002984553, y: 0.00033831268, z: 0.07030645, w: 0.997521}
+      scale: {x: 0.99999994, y: 0.9999996, z: 0.9999997}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandThumb3
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandThumb2
+      position: {x: 0.00007685287, y: 0.0016395655, z: -1.9280338e-11}
+      rotation: {x: -0.016614012, y: -0.0001781219, z: 0.004570898, w: 0.9998515}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandThumb4
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandThumb3
+      position: {x: 0.00018219936, y: 0.001375204, z: -1.6213763e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandIndex1
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHand
+      position: {x: -0.0016593433, y: 0.004833578, z: 0.000012840278}
+      rotation: {x: 0.06462861, y: 0.0035698104, z: 0.052102033, w: 0.996542}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.99999994}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandIndex2
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandIndex1
+      position: {x: 0.000010459815, y: 0.0013303969, z: 3.6069325e-12}
+      rotation: {x: 0.037986226, y: -0.00006583843, z: -0.005744028, w: 0.99926174}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000008}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandIndex3
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandIndex2
+      position: {x: -0.000012028224, y: 0.0012415003, z: -2.736083e-11}
+      rotation: {x: -0.03996605, y: 0.00012346216, z: 0.0024396363, w: 0.999198}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandIndex4
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandIndex3
+      position: {x: 0.0000015683449, y: 0.000985458, z: 4.852656e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandPinky1
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHand
+      position: {x: 0.0016277976, y: 0.004411111, z: -0.000051999334}
+      rotation: {x: 0.05023077, y: -0.008602377, z: 0.010488401, w: 0.99864554}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999999}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandPinky2
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandPinky1
+      position: {x: 0.000008690187, y: 0.0014476912, z: -8.086811e-12}
+      rotation: {x: 0.036521573, y: 0.00020628505, z: -0.0029992424, w: 0.9993283}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandPinky3
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandPinky2
+      position: {x: -0.0000024918183, y: 0.0011965832, z: -4.6718795e-11}
+      rotation: {x: 0.0024138684, y: -0.000000003692505, z: -0.000000071605264, w: 0.9999971}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandPinky4
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandPinky3
+      position: {x: -0.0000061983415, y: 0.0009738631, z: 1.5365662e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandMiddle1
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHand
+      position: {x: -0.00052183995, y: 0.0051911366, z: -0.00016757348}
+      rotation: {x: 0.052229255, y: 0.00010249017, z: 0.0019594112, w: 0.9986332}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandMiddle2
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandMiddle1
+      position: {x: 0.000013856937, y: 0.0014661298, z: 4.2102853e-12}
+      rotation: {x: 0.03484851, y: 0.00020162527, z: -0.006407219, w: 0.99937207}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandMiddle3
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandMiddle2
+      position: {x: -0.000009002614, y: 0.0013710421, z: 6.7025907e-12}
+      rotation: {x: -0.023616806, y: 0.000000080594305, z: 0.00000006439216, w: 0.9997211}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandMiddle4
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandMiddle3
+      position: {x: -0.0000048543334, y: 0.001113313, z: 1.4103378e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandRing1
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHand
+      position: {x: 0.0005533857, y: 0.0050923508, z: -0.00012399371}
+      rotation: {x: 0.056180034, y: 0.0005974916, z: 0.0169332, w: 0.9982769}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandRing2
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandRing1
+      position: {x: 0.000021406793, y: 0.0014822802, z: 2.1132793e-11}
+      rotation: {x: 0.034826737, y: 0.0006364861, z: -0.007908992, w: 0.9993619}
+      scale: {x: 0.99999994, y: 0.99999934, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandRing3
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandRing2
+      position: {x: -0.000007426309, y: 0.0013927893, z: 7.8779405e-12}
+      rotation: {x: 0.040807918, y: -0.00012190426, z: -0.00087759946, w: 0.9991666}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightHandRing4
+      parentName: HumanCharacter:nhanvat:HumanBody:RightHandRing3
+      position: {x: -0.00001398047, y: 0.0011401661, z: -5.2516325e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftUpLeg
+      parentName: HumanCharacter:nhanvat:HumanBody:Hips
+      position: {x: -0.0036582516, y: -0.0022471142, z: -0.00019999527}
+      rotation: {x: 0.0014783383, y: -0.04390651, z: 0.99846876, w: 0.033618476}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftLeg
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftUpLeg
+      position: {x: 3.549539e-11, y: 0.018598672, z: -9.7236934e-11}
+      rotation: {x: 0.014914196, y: -0.000007883297, z: -0.0005286553, w: 0.99988866}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000008}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftFoot
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftLeg
+      position: {x: 1.1194557e-11, y: 0.017893827, z: -1.1826611e-11}
+      rotation: {x: 0.4901857, y: 0.011815135, z: -0.0066454876, w: 0.87151265}
+      scale: {x: 1.0000006, y: 1.0000004, z: 0.99999994}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftToeBase
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftFoot
+      position: {x: -2.7537584e-12, y: 0.0075167185, z: -3.373611e-10}
+      rotation: {x: 0.27435657, y: 0.031233761, z: -0.008916207, w: 0.9610793}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:LeftToe_End
+      parentName: HumanCharacter:nhanvat:HumanBody:LeftToeBase
+      position: {x: 1.4203238e-12, y: 0.0029702473, z: -4.9089053e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightUpLeg
+      parentName: HumanCharacter:nhanvat:HumanBody:Hips
+      position: {x: 0.0036582516, y: -0.0022471142, z: -0.00031238934}
+      rotation: {x: -0.0013540509, y: -0.040190093, z: 0.99862456, w: -0.033644784}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: HumanCharacter:nhanvat:HumanBody:RightLeg
+      parentName: HumanCharacter:nhanvat:HumanBody:RightUpLeg
+      position: {x: -9.193196e-11, y: 0.01858705, z: -2.401525e-11}
+      rotation: {x: 0.01064093, y: 0.000005298527, z: 0.0004980426, w: 0.9999433}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: HumanCharacter:nhanvat:HumanBody:RightFoot
+      parentName: HumanCharacter:nhanvat:HumanBody:RightLeg
+      position: {x: -4.1956796e-11, y: 0.01789498, z: -5.2138516e-11}
+      rotation: {x: 0.48949122, y: -0.011643549, z: 0.006536734, w: 0.871906}
+      scale: {x: 1.0000005, y: 1, z: 1.0000001}
+    - name: HumanCharacter:nhanvat:HumanBody:RightToeBase
+      parentName: HumanCharacter:nhanvat:HumanBody:RightFoot
+      position: {x: 3.626198e-12, y: 0.0074874717, z: -4.6267816e-11}
+      rotation: {x: 0.27546632, y: -0.03142327, z: 0.009009631, w: 0.96075475}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: HumanCharacter:nhanvat:HumanBody:RightToe_End
+      parentName: HumanCharacter:nhanvat:HumanBody:RightToeBase
+      position: {x: 6.2326433e-12, y: 0.0029463035, z: 8.778967e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -105,5 +916,5 @@ ModelImporter:
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: run
+  assetBundleVariant: run
