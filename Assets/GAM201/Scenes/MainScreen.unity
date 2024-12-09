@@ -4432,11 +4432,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1901179498670510394, guid: b4c441c6652234b439255c9fbcd01355, type: 3}
   m_PrefabInstance: {fileID: 2078656830}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &620831417 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1236669119058840448, guid: b4c441c6652234b439255c9fbcd01355, type: 3}
-  m_PrefabInstance: {fileID: 2078656830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &620831418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12768,14 +12763,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550980023}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0adfa8b401d57a84787c068a1acc15f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 620831417}
-  smoothSpeed: 0.125
-  offset: {x: 0, y: 0, z: -10}
+  minYAngle: -20
+  MaxYAngle: 80
+  lookAt: {fileID: 91935674}
+  distance: 10
+  mouseSens: 1
 --- !u!114 &1550980028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12783,7 +12780,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550980023}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -15848,7 +15845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1963723565
 MonoBehaviour:
   m_ObjectHideFlags: 0
