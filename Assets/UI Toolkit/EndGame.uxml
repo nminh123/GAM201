@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/EndGame.uss?fileID=7433441132597879392&amp;guid=f35d249e9227d4b858533518218ccbb7&amp;type=3#EndGame" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Congratulations" parse-escape-sequences="true" display-tooltip-when-elided="true" name="header1" class="header1 header" style="left: 60px; top: 200px;" />
+        <ui:Label tabindex="-1" text="You win!!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="header2" class="header" style="top: 452px; left: 488px;" />
+        <ui:Button text="Go to main menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" class="button" style="top: 796px; left: 324px; width: 400px; height: 100px;" />
+        <ui:Button text="Try Again" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TryAgain" class="button" style="top: 796px; left: 1100px; width: 400px; height: 100px;" />
+    </ui:VisualElement>
+</ui:UXML>

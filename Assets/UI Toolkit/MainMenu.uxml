@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu.uss?fileID=7433441132597879392&amp;guid=4e036b86ea84946e2ac66fdbadbb9107&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-image: resource(&apos;Enviroment/Textures/Background_MainMenu&apos;);">
+        <ui:Label tabindex="-1" text="Mach" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" class="header" style="font-size: 400px;" />
+        <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGame" class="button" style="left: 700px; top: 600px; font-size: 120px;" />
+        <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="button" style="left: 700px; top: 650px; font-size: 120px;" />
+    </ui:VisualElement>
+</ui:UXML>

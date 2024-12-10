@@ -1,0 +1,18 @@
+.Header {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    -unity-font: resource('font/Rabrasa-3lj4z');
+    -unity-font-definition: initial;
+    font-size: 120px;
+    -unity-text-align: upper-center;
+    top: 60px;
+    position: relative;
+}
+
+.Button {
+    width: 100px;
+    height: 100px;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    top: auto;
+    left: auto;
+    position: absolute;
+}

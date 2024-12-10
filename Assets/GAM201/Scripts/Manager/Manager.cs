@@ -7,23 +7,25 @@ namespace Scripts.Manager.Manager
     {
         private Player mPlayer;
         private CameraFollow mCam;
+        [SerializeField] private GameObject endGameObject;
 
         void Awake()
         {
-            mPlayer = FindObjectOfType<Player>();
             mCam = FindObjectOfType<CameraFollow>();
+            mPlayer = FindObjectOfType<Player>();
         }
 
         void Update()
         {
             checkEnd(mPlayer.isFinish);
         }
-        
+
         void checkEnd(bool isFinish)
         {
-            if(isFinish == true)
+            if (isFinish == true)
             {
                 Time.timeScale = 0;
+                endGameObject.SetActive(true);
                 mCam.enabled = false;
             }
         }

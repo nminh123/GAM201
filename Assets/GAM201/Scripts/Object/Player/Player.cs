@@ -18,11 +18,6 @@ namespace Scripts.Object.Player
             mRigidbody = GetComponent<Rigidbody>();
         }
 
-        void Start()
-        {
-            mSpeed = consts.gSpeed;
-        }
-
         void Update()
         {
             // Input();
