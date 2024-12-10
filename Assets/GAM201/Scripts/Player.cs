@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+namespace Global
+{
 public class Player : MonoBehaviour
 {
     public float moveSpeed = 5f;         // Tốc độ di chuyển
@@ -68,4 +70,5 @@ public class Player : MonoBehaviour
         // Di chuyển nhân vật
         characterController.Move(moveDirection * Time.deltaTime);
     }
+}
 }
