@@ -9,6 +9,8 @@ namespace Scripts.Object.Player
         [SerializeField] private Consts consts;
         private float mSpeed;
         private Rigidbody mRigidbody;
+        private bool mIsFinish = false;
+        public bool isFinish => mIsFinish;
 
         void Awake()
         {
@@ -23,7 +25,7 @@ namespace Scripts.Object.Player
 
         void Update()
         {
-            Input();
+            // Input();
         }
 
         void Input()
@@ -33,6 +35,14 @@ namespace Scripts.Object.Player
 
             Vector3 move = new Vector3(horizontal, 0, vertical).normalized;
             mRigidbody.velocity = move * mSpeed;
+        }
+
+        void OnCollisionEnter(Collision other)
+        {
+            if(other.gameObject.CompareTag("Finish"))
+            {
+                mIsFinish = true;
+            }
         }
     }
 }

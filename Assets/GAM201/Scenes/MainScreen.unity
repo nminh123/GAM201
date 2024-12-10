@@ -747,8 +747,9 @@ GameObject:
   - component: {fileID: 91935671}
   - component: {fileID: 91935670}
   - component: {fileID: 91935669}
+  - component: {fileID: 91935675}
   m_Layer: 0
-  m_Name: vBasicController_SK_Military_Survivalist
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -925,6 +926,19 @@ Transform:
   - {fileID: 662357583}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &91935675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91935668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f71e159bbb64cbda0d83cc42283bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consts: {fileID: 0}
 --- !u!1001 &102247964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4432,11 +4446,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1901179498670510394, guid: b4c441c6652234b439255c9fbcd01355, type: 3}
   m_PrefabInstance: {fileID: 2078656830}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &620831417 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1236669119058840448, guid: b4c441c6652234b439255c9fbcd01355, type: 3}
-  m_PrefabInstance: {fileID: 2078656830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &620831418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7595,6 +7604,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f0db7366c10744ee5ba494db682a488b, type: 3}
       propertyPath: m_Name
       value: fstadium
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0db7366c10744ee5ba494db682a488b, type: 3}
+      propertyPath: m_TagString
+      value: Finish
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12768,14 +12781,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550980023}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0adfa8b401d57a84787c068a1acc15f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 620831417}
-  smoothSpeed: 0.125
-  offset: {x: 0, y: 0, z: -10}
+  minYAngle: -20
+  MaxYAngle: 80
+  lookAt: {fileID: 91935674}
+  distance: 10
+  mouseSens: 1
 --- !u!114 &1550980028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12783,7 +12798,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550980023}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -15600,6 +15615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1943642442}
   - component: {fileID: 1943642441}
+  - component: {fileID: 1943642443}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -15636,6 +15652,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1943642443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943642440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6b328b91e444f7aaaa38ba5b09fd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1948140632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15848,7 +15876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1963723565
 MonoBehaviour:
   m_ObjectHideFlags: 0
