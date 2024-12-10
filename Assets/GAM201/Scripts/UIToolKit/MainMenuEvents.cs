@@ -10,11 +10,12 @@ public class MainMenuEvents : MonoBehaviour
     private Button mStartGameButton;
     private Button mSettingsButton;
     private List<Button> mListButton;
+    [SerializeField] private GameObject popUp;
 
     void Awake()
     {
         mDocument = GetComponent<UIDocument>();
-        mAudio = GetComponent<AudioSource>();
+        mAudio = GameObject.Find("Sound").GetComponent<AudioSource>();
         mStartGameButton = mDocument.rootVisualElement.Q("StartGame") as Button;
         mSettingsButton = mDocument.rootVisualElement.Q("Settings") as Button;
         mListButton = mDocument.rootVisualElement.Query<Button>().ToList();
@@ -48,6 +49,7 @@ public class MainMenuEvents : MonoBehaviour
 
     void OnSettingsClick(ClickEvent evt)
     {
+        popUp.SetActive(true);
         Debug.Log("Settings Clicked!!");
     }
 

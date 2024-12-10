@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/PopUp.uss?fileID=7433441132597879392&amp;guid=54c34e188079740cdbc1cd33a6d19717&amp;type=3#PopUp" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 1486px; height: 973px; position: absolute; top: 58px; left: 231px; background-image: resource(&apos;LightBox&apos;);">
+        <ui:Label tabindex="-1" text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" class="Header" />
+        <ui:VisualElement name="music" class="Button" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Heathen%20Engineering/Assets/UX/Icons/Flat%20Icons%20[Free]/Free%20Flat%20Music%20Icon.png?fileID=21300000&amp;guid=cfeb52c1158468445be82e5c877e4f1a&amp;type=3#Free Flat Music Icon&quot;); left: 617px; top: 265px; height: 230px; width: 230px;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Music" style="opacity: 0; height: 230px; width: 230px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="sound" class="Button" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Heathen%20Engineering/Assets/UX/Icons/Flat%20Icons%20[Free]/Free%20Flat%20Volume%203%20Icon.png?fileID=21300000&amp;guid=e153e7320d1c3b247b8dd9913128265a&amp;type=3#Free Flat Volume 3 Icon&quot;); left: 625px; top: 589px; height: 230px; width: 230px;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Sound" style="opacity: 0; width: 230px; height: 230px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="exit" class="Button" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Heathen%20Engineering/Assets/UX/Icons/Flat%20Icons%20[Free]/Free%20Flat%20Mic%20No%20Cross%20Icon.png?fileID=21300000&amp;guid=d5ad855c08e83c3409a8053c8f886d54&amp;type=3#Free Flat Mic No Cross Icon&quot;); width: 113px; height: 113px; left: 1398px; -unity-font-style: normal; top: -33px; opacity: 1; rotate: 33deg;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" style="width: 128px; height: 128px; opacity: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

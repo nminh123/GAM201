@@ -1,6 +1,5 @@
 using Scripts.Object.Player;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Scripts.Manager.Manager
 {
@@ -8,6 +7,7 @@ namespace Scripts.Manager.Manager
     {
         private Player mPlayer;
         private CameraFollow mCam;
+        [SerializeField] private GameObject endGameObject;
 
         void Awake()
         {
@@ -25,6 +25,7 @@ namespace Scripts.Manager.Manager
             if (isFinish == true)
             {
                 Time.timeScale = 0;
+                endGameObject.SetActive(true);
                 mCam.enabled = false;
             }
         }
