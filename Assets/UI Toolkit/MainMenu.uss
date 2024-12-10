@@ -1,0 +1,26 @@
+.button {
+    width: 600px;
+    height: 200px;
+    -unity-background-image-tint-color: rgb(255, 249, 249);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -unity-font: resource('font/Rabrasa-3lj4z');
+    -unity-font-definition: initial;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.header {
+    -unity-font: resource('font/Rabrasa-3lj4z');
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    justify-content: flex-start;
+    -unity-text-align: upper-center;
+    top: 200px;
+    left: 550px;
+    position: absolute;
+}
