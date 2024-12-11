@@ -11,8 +11,10 @@ public enum Direction
 public class CarBehavior : MonoBehaviour
 {
     public float movingSpeed;
+    public Vector3 startPos;
     public Direction dirCarVersusPlayer;
-    public Vector3 directionVector;
+    private Vector3 directionVector;
+   
     public bool isOnRoad;
 
     // Start is called before the first frame update
@@ -22,12 +24,8 @@ public class CarBehavior : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    MovingCar(movingSpeed, dirCarVersusPlayer, directionVector);
-        //}
         MovingCar(movingSpeed, dirCarVersusPlayer, directionVector);
     }
 
@@ -35,11 +33,14 @@ public class CarBehavior : MonoBehaviour
     private void MovingCar(float movingSpeed, Direction direction, Vector3 directionVector)
     {
         directionVector = direction == Direction.Same ? directionVector : -directionVector;
-
         gameObject.transform.position += directionVector.normalized * movingSpeed * Time.deltaTime;
 
     }
 
+    public void SetStartPos(Vector3 postion)
+    {
+        startPos = postion;
+    }
 
 
 }
