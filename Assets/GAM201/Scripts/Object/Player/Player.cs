@@ -11,6 +11,8 @@ namespace Scripts.Object.Player
         private Rigidbody mRigidbody;
         private bool mIsFinish = false;
         public bool isFinish => mIsFinish;
+        private bool mIsHit = false;
+        public bool isHit => mIsHit;
 
         void Awake()
         {
@@ -37,6 +39,11 @@ namespace Scripts.Object.Player
             if(other.gameObject.CompareTag("Finish"))
             {
                 mIsFinish = true;
+            }
+
+            if(other.gameObject.CompareTag("Car"))
+            {
+                mIsHit = true;
             }
         }
     }

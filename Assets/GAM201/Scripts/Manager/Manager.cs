@@ -20,6 +20,7 @@ namespace Scripts.Manager.Manager
         void Update()
         {
             isEndGame();
+            checkHit(mPlayer.isHit);
             mTime = Mathf.Max(0, time - Time.deltaTime); // Decrease time, clamp to 0
         }
 
@@ -42,6 +43,16 @@ namespace Scripts.Manager.Manager
         void checkEndLose(float t)
         {
             if (t <= 0)
+            {
+                Time.timeScale = 0;
+                endGameObject.SetActive(true);
+                mCam.enabled = false;
+            }
+        }
+
+        void checkHit(bool isHit)
+        {
+            if(isHit == true)
             {
                 Time.timeScale = 0;
                 endGameObject.SetActive(true);
