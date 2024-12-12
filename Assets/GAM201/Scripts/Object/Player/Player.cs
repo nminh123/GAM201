@@ -20,20 +20,6 @@ namespace Scripts.Object.Player
             mRigidbody = GetComponent<Rigidbody>();
         }
 
-        void Update()
-        {
-            // Input();
-        }
-
-        void Input()
-        {
-            float horizontal = UnityEngine.Input.GetAxis("Horizontal");
-            float vertical = UnityEngine.Input.GetAxis("Vertical");
-
-            Vector3 move = new Vector3(horizontal, 0, vertical).normalized;
-            mRigidbody.velocity = move * mSpeed;
-        }
-
         void OnCollisionEnter(Collision other)
         {
             if(other.gameObject.CompareTag("Finish"))
